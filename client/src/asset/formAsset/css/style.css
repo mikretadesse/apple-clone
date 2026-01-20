@@ -1,0 +1,92 @@
+/* Global styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(135deg, #c6d2e9, #bac3e6);
+  padding-top: 5px;
+}
+
+/* Card */
+.card {
+  border-radius: 10px;
+  padding: 10px;
+  background: #ffffffee;
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Section headers */
+h5 {
+  margin-bottom: 5px;
+  color: #1885eb;
+  font-family: "Playfair Display", serif;
+  border-bottom: 2px solid #5b9bd5;
+  padding-bottom: 5px;
+}
+
+/* Form inputs */
+input,
+textarea {
+  border-radius: 10px;
+  transition: all 0.1s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4070b8;
+  box-shadow: 0 0 8px rgba(64, 112, 184, 0.3);
+}
+
+/* Button */
+button {
+  border-radius: 15px;
+  font-weight: 600;
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(45deg, #4070b8, #2a4d8f);
+}
+
+/* FadeIn animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Success message style */
+#status.success {
+  color: white;
+  background-color: rgb(71, 231, 71);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  display: none; /* hidden initially for slideDown effect */
+}
+
+/* Optional: Error message style */
+#status.error {
+  color: white;
+  background-color: red;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    padding: 15px;
+  }
+  .section h4 {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add iPhone</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container my-1">
+      <div class="card mx-auto shadow" style="max-width: 700px">
+        <div class="card-body">
+          <h3 class="text-center mb-2">Add iPhone</h3>
+          <form id="addProductForm">
+            <!-- Product Details -->
+            <h5>Product Details</h5>
+            <div class="row">
+              <div class="col-md-6 mb-2">
+                <input
+                  type="text"
+                  name="product_name"
+                  class="form-control"
+                  placeholder="Product Name"
+                  required />
+              </div>
+              <div class="col-md-6 mb-2">
+                <input
+                  type="text"
+                  name="product_url"
+                  class="form-control"
+                  placeholder="Product URL"
+                  required />
+              </div>
+            </div>
+
+            <!-- Description -->
+            <h5 class="mt-2">Description</h5>
+            <textarea
+              name="product_brief_description"
+              class="form-control mb-2"
+              rows="1.5"
+              placeholder="Brief Description"
+              required></textarea>
+            <textarea
+              name="product_description"
+              class="form-control mb-2"
+              rows="2.5"
+              placeholder="Full Description"
+              required></textarea>
+            <div class="row">
+              <div class="col-md-6 mb-2">
+                <input
+                  type="text"
+                  name="product_img"
+                  class="form-control"
+                  placeholder="Image URL"
+                  required />
+              </div>
+              <div class="col-md-6 mb-2">
+                <input
+                  type="text"
+                  name="product_link"
+                  class="form-control"
+                  placeholder="Product Link"
+                  required />
+              </div>
+            </div>
+
+            <!-- Pricing -->
+            <h5 class="mt-2">Pricing</h5>
+            <div class="row">
+              <div class="col-md-6 mb-2">
+                <input
+                  type="text"
+                  name="starting_price"
+                  class="form-control"
+                  placeholder="Starting Price"
+                  required />
+              </div>
+              <div class="col-md-6 mb-2">
+                <input
+                  type="text"
+                  name="price_range"
+                  class="form-control"
+                  placeholder="Price Range"
+                  required />
+              </div>
+            </div>
+
+            <!-- User Info -->
+            <h5 class="mt-2">User Info</h5>
+            <div class="row">
+              <div class="col-md-6 mb-2">
+                <input
+                  type="text"
+                  name="user_name"
+                  class="form-control"
+                  placeholder="User Name"
+                  required />
+              </div>
+              <div class="col-md-6 mb-2">
+                <input
+                  type="password"
+                  name="user_password"
+                  class="form-control"
+                  placeholder="Password"
+                  required />
+              </div>
+            </div>
+
+            <div class="text-center mt-2">
+              <button type="submit" class="btn btn-primary px-4">
+                Add Product
+              </button>
+            </div>
+            <p id="status" class="text-center mt-3"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.image {
+  max-width: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.details {
+  max-width: 400px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.brief {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.subtitle {
+  font-size: 20px;
+  color: #2c2c38;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.priceRange {
+  font-size: 18px;
+}
+.backLink {
+  color: #06c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}

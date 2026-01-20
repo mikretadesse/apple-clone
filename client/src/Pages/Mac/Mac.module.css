@@ -1,0 +1,83 @@
+/* Hero Section */
+.heroSection {
+  background-color: #fff;
+  padding: 100px 20px 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.new {
+  color: #5a68e9;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 24px;
+  color: #1d1d1f;
+  margin: 15px 0 10px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 500;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.links a {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #06c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.links a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.links a:hover {
+  color: #000;
+}
+
+.imageWrap img {
+  width: auto;
+  max-height: 380px;
+  object-fit: contain;
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .imageWrap img {
+    max-height: 260px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .links a {
+    display: block;
+    margin: 10px 0;
+  }
+}

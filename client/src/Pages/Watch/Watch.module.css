@@ -1,0 +1,110 @@
+/* Global */
+body {
+  background-color: #f5f5f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section 1 - Hero */
+.hero {
+  background-color: #fff;
+  padding: 120px 0 60px; /* Top spacing for hero */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.new {
+  color: #5a68e9; /* Apple blue-ish accent */
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 24px;
+  color: #1d1d1f;
+  margin-bottom: 25px;
+}
+
+.links a {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #06c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.links a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.links a:hover {
+  color: black;
+}
+
+.imageWrap img {
+  width: auto;
+  max-height: 380px; /* Desktop size */
+  object-fit: contain;
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+/* Section 2 - Dark background */
+.sectionDark {
+  background-color: #fff; /* keep consistent white background */
+  padding: 80px 0;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 22px;
+  color: #1d1d1f;
+  margin-bottom: 25px;
+}
+
+.sectionDark .imageWrap img {
+  max-height: 380px;
+}
+
+/* Responsive for tablets and mobile */
+@media (max-width: 768px) {
+  .imageWrap img {
+    max-height: 260px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .subTitle {
+    font-size: 32px;
+  }
+
+  .tagline,
+  .description {
+    font-size: 18px;
+  }
+
+  .links a {
+    display: block;
+    margin: 10px 0;
+  }
+}

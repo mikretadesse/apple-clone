@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 76%;
+}
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1d1d1f;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #2c2c38;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Product Row */
+.productRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .productRow {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Text Section */
+.productName {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #0e0c0c;
+  max-width: 500px;
+}
+
+.price {
+  font-size: 15px;
+  color: #1d1d1f;
+}
+
+/* Buttons & Links */
+.learnMore {
+  font-size: 18px;
+  color: #06c;
+  font-weight: 480;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.learnMore:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Image */
+.image {
+  max-width: 350px;
+  object-fit: contain;
+  border-radius: 10%;
+}
+.imageWraper {
+  max-width: 500px;
+  background-color: rgb(211, 230, 230);
+}

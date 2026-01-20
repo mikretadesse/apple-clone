@@ -1,0 +1,85 @@
+/* Hero Section */
+.heroWrapper {
+  background-color: #f5f5f7;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  font-size: 24px;
+  color: #1d1d1f;
+  margin-bottom: 30px;
+}
+
+.linksWrapper ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.linksWrapper ul li a {
+  margin: 0 5px;
+  font-size: 18px;
+  color: #06c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.linksWrapper ul li a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.linksWrapper ul li a:hover {
+  color: black;
+}
+
+/* Playlists Section */
+.playlistsSection {
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.sectionTitle {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.playlistCard img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.playlistTitle {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Subscription Section */
+.subscriptionSection {
+  background-color: #e5e5e7;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 42px;
+  }
+  .subTitle {
+    font-size: 18px;
+  }
+  .playlistTitle {
+    font-size: 16px;
+  }
+}

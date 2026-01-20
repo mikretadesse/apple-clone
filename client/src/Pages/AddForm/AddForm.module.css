@@ -1,0 +1,118 @@
+/* Wrapper */
+.wrapper {
+  font-family: "Montserrat", sans-serif;
+  background: #ffffff;
+  padding: 70px 0; /* space below header and above footer */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* Card */
+.card {
+  border-radius: 15px;
+  padding: 20px;
+  background: #ffffffee;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Title */
+.title {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Section Headers */
+.sectionTitle {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #0978e7;
+  font-weight: 500;
+  border-bottom: 1.5px solid #b5d6f5;
+  padding-bottom: 5px;
+}
+
+/* Inputs */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: all 0.15s ease;
+  font-size: 14px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0071e3;
+  box-shadow: 0 0 10px rgba(0, 113, 227, 0.25);
+}
+
+textarea {
+  resize: none;
+  height: 60px;
+}
+
+/* Button */
+.button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: #0071e3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #005bb5;
+  transform: translateY(-2px);
+}
+
+/* Status Message */
+.status {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.success {
+  color: #fff;
+  background-color: #28a745;
+}
+
+.error {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    padding: 15px;
+  }
+}
