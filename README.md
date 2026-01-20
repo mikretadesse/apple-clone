@@ -84,5 +84,3 @@ This project is for **educational and practice purposes only**.
 This project is **not affiliated with or endorsed by Apple Inc.**
 All logos, product images, and trademarks used here belong to **Apple Inc.**
 The design is recreated **solely for learning and portfolio demonstration**.
-
--
