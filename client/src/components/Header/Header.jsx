@@ -68,11 +68,11 @@ function Header() {
                   <img src={cart} />
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-Link js-scroll-trigger" to="AddForm">
                   Add Product
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>

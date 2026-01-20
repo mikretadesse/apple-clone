@@ -13,7 +13,7 @@ import Support from "./Pages/Support/Support";
 import TV from "./Pages/TV/Tv";
 import Watch from "./Pages/Watch/Watch";
 import Four04 from "./Pages/Four04/Four04";
-import AddForm from "./Pages/AddForm/AddForm";
+// import AddForm from "./Pages/AddForm/AddForm";
 import SharedLayout from "./components/SharedLayout/SharedLayout";
 import SingleAppleProduct from "./Pages/SingleAppleProduct/SingleAppleProduct";
 
@@ -32,7 +32,7 @@ function App() {
         <Route path="/Search" element={<Search />} />
         <Route path="/TV" element={<TV />} />
         <Route path="/Watch" element={<Watch />} />
-        <Route path="/AddForm" element={<AddForm />} />
+        {/* <Route path="/AddForm" element={<AddForm />} /> */}
         <Route path="/*" element={<Four04 />} />
       </Route>
     </Routes>
