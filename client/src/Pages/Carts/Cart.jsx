@@ -8,20 +8,20 @@ import ipadPro from "../../asset/images/others/Apple Watch Ultra.jpg";
 
 export default function Cart() {
   const [cartItems, setCartItems] = useState([
-    {
-      id: 1,
-      name: 'MacBook Pro 14"',
-      price: 999,
-      quantity: 1,
-      image: macBookPro,
-    },
-    {
-      id: 2,
-      name: "Apple Watch Ultra",
-      price: 399,
-      quantity: 2,
-      image: ipadPro,
-    },
+    // {
+    //   id: 1,
+    //   name: 'MacBook Pro 14"',
+    //   price: 999,
+    //   quantity: 1,
+    //   image: macBookPro,
+    // },
+    // {
+    //   id: 2,
+    //   name: "Apple Watch Ultra",
+    //   price: 399,
+    //   quantity: 2,
+    //   image: ipadPro,
+    // },
   ]);
 
   const increaseQty = (id) => {

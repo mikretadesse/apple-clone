@@ -16,7 +16,7 @@ function Iphone() {
       .catch((err) => console.log(err));
   }, []);
 
-  if (loading) return <h2 className="text-center mt-5">Loading...</h2>;
+  if (loading) return <h2 className="text-center mt-5 py-5">Loading...</h2>;
 
   return (
     <section className={`container-fluid ${styles.container}`}>
